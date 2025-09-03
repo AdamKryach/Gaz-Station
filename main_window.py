@@ -9,11 +9,14 @@ class MainWindow(ttk.Frame):
         self.user_role = user_role
         
         # Configuration du frame principal
-        self.pack(fill="both", expand=True)  # On utilise le frame principal directement
+        self.pack(fill="both", expand=True)
         
         # Configuration responsive
-        self.columnconfigure(0, weight=1)
-        self.rowconfigure(0, weight=1)
+        self.grid_columnconfigure(0, weight=1)
+        self.grid_rowconfigure(0, weight=1)
+        
+        # Initialisation explicite du frame
+        self.main_frame = self
         
         # Ajouter le contenu de l'interface ici
         self.create_widgets()

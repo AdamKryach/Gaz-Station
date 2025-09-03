@@ -53,6 +53,7 @@ class GazStationApp:
 
         # === Création de l'interface principale ===
         self.main_window = MainWindow(self.root, self.db_manager, self.user_role)
+        self.main_window.pack(fill="both", expand=True)
         self.main_window.current_user = self.current_user
         self.main_window.user_role = self.user_role
 

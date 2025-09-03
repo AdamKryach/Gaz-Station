@@ -15,9 +15,6 @@ class MainWindow(ttk.Frame):
         self.grid_columnconfigure(0, weight=1)
         self.grid_rowconfigure(0, weight=1)
         
-        # Initialisation explicite du frame
-        self.main_frame = self
-        
         # Ajouter le contenu de l'interface ici
         self.create_widgets()
     

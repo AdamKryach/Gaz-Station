@@ -217,3 +217,9 @@ Pour toute assistance technique, consultez les logs d'erreur dans la console Pyt
 ```bash
 sk-ce374a2dc4ae4f5ba63213935f081618
 ```
+
+## Crendentials :
+### Username : 
+Bailo
+### Password :
+bailoxmono

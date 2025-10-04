@@ -1,0 +1,51 @@
+2025-10-04 13:06:51 - INFO - === Démarrage de l'application Gaz Station ===
+2025-10-04 13:07:23 - INFO - === Démarrage de l'application Gaz Station ===
+2025-10-04 13:07:35 - ERROR - Erreur lors de la récupération de l'ID utilisateur: Erreur de base de données: no such table: users
+2025-10-04 13:07:35 - ERROR - Traceback (most recent call last):
+  File "C:\Users\ghlft\Desktop\Gaz Station\modules\database.py", line 373, in execute_query
+    cursor.execute(query, params)
+sqlite3.OperationalError: no such table: users
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ghlft\Desktop\Gaz Station\main.py", line 91, in __init__
+    result = self.db_manager.execute_query(query, (self.current_user,))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghlft\Desktop\Gaz Station\modules\database.py", line 413, in execute_query
+    raise sqlite3.Error(f"Erreur de base de données: {str(e)}") from e
+sqlite3.Error: Erreur de base de données: no such table: users
+
+2025-10-04 13:07:35 - ERROR - Erreur lors de la configuration du menu: 'GazStationApp' object has no attribute 'open_settings'
+2025-10-04 13:07:35 - ERROR - Traceback (most recent call last):
+  File "C:\Users\ghlft\Desktop\Gaz Station\main.py", line 148, in setup_menu
+    file_menu.add_command(label="Paramètres", command=self.open_settings)
+                                                      ^^^^^^^^^^^^^^^^^^
+AttributeError: 'GazStationApp' object has no attribute 'open_settings'
+
+2025-10-04 13:07:39 - INFO - Application démarrée par l'utilisateur: Adam Kryach (administrateur)
+2025-10-04 13:08:09 - INFO - === Démarrage de l'application Gaz Station ===
+2025-10-04 13:08:21 - ERROR - Erreur lors de la récupération de l'ID utilisateur: Erreur de base de données: no such table: users
+2025-10-04 13:08:21 - ERROR - Traceback (most recent call last):
+  File "C:\Users\ghlft\Desktop\Gaz Station\modules\database.py", line 373, in execute_query
+    cursor.execute(query, params)
+sqlite3.OperationalError: no such table: users
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ghlft\Desktop\Gaz Station\main.py", line 91, in __init__
+    result = self.db_manager.execute_query(query, (self.current_user,))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghlft\Desktop\Gaz Station\modules\database.py", line 413, in execute_query
+    raise sqlite3.Error(f"Erreur de base de données: {str(e)}") from e
+sqlite3.Error: Erreur de base de données: no such table: users
+
+2025-10-04 13:08:21 - ERROR - Erreur lors de la configuration du menu: 'GazStationApp' object has no attribute 'open_settings'
+2025-10-04 13:08:21 - ERROR - Traceback (most recent call last):
+  File "C:\Users\ghlft\Desktop\Gaz Station\main.py", line 148, in setup_menu
+    file_menu.add_command(label="Paramètres", command=self.open_settings)
+                                                      ^^^^^^^^^^^^^^^^^^
+AttributeError: 'GazStationApp' object has no attribute 'open_settings'
+
+2025-10-04 13:08:24 - INFO - Application démarrée par l'utilisateur: Adam Kryach (administrateur)

@@ -1,0 +1,32 @@
+[2025-09-16 22:02:32] Erreur d'exécution de requête: no such table: users
+Requête: SELECT id FROM users WHERE username = ?
+Paramètres: ('Adam Kryach',)
+[2025-09-16 22:02:34] Erreur d'exécution de requête: no such table: preferences
+Requête: SELECT COUNT(*) FROM preferences 
+                      WHERE user_id = ? AND preference_key = 'window_size'
+Paramètres: (0,)
+[2025-09-16 22:03:13] Erreur d'exécution de requête: UNIQUE constraint failed: preferences.user_id, preferences.preference_key
+Requête: INSERT INTO preferences (user_id, preference_key, preference_value) 
+                              VALUES (?, 'window_size', ?)
+Paramètres: (0, '1366,677,-8,-8')
+[2025-09-16 22:03:32] Erreur d'exécution de requête: no such table: users
+Requête: SELECT id FROM users WHERE username = ?
+Paramètres: ('Adam Kryach',)
+[2025-09-16 22:16:40] Erreur d'exécution de requête: no such table: users
+Requête: SELECT id FROM users WHERE username = ?
+Paramètres: ('Adam Kryach',)
+[2025-09-16 22:24:30] Erreur d'exécution de requête: no such table: users
+Requête: SELECT id FROM users WHERE username = ?
+Paramètres: ('Adam Kryach',)
+[2025-09-16 22:29:00] Erreur d'exécution de requête: no such table: users
+Requête: SELECT id FROM users WHERE username = ?
+Paramètres: ('Adam Kryach',)
+[2025-09-16 22:50:39] Erreur d'exécution de requête: no such table: users
+Requête: SELECT id FROM users WHERE username = ?
+Paramètres: ('Adam Kryach',)
+[2025-10-04 13:07:35] Erreur d'exécution de requête: no such table: users
+Requête: SELECT id FROM users WHERE username = ?
+Paramètres: ('Adam Kryach',)
+[2025-10-04 13:08:21] Erreur d'exécution de requête: no such table: users
+Requête: SELECT id FROM users WHERE username = ?
+Paramètres: ('Adam Kryach',)

@@ -1,0 +1,168 @@
+2025-09-16 21:34:15 - INFO - === Démarrage de l'application Gaz Station ===
+2025-09-16 21:34:28 - INFO - Application démarrée par l'utilisateur: Adam Kryach (administrateur)
+2025-09-16 22:02:18 - INFO - === Démarrage de l'application Gaz Station ===
+2025-09-16 22:02:32 - ERROR - Erreur lors de la récupération de l'ID utilisateur: Erreur de base de données: no such table: users
+2025-09-16 22:02:32 - ERROR - Traceback (most recent call last):
+  File "C:\Users\ghlft\Desktop\Gaz Station\modules\database.py", line 373, in execute_query
+    cursor.execute(query, params)
+sqlite3.OperationalError: no such table: users
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ghlft\Desktop\Gaz Station\main.py", line 91, in __init__
+    result = self.db_manager.execute_query(query, (self.current_user,))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghlft\Desktop\Gaz Station\modules\database.py", line 413, in execute_query
+    raise sqlite3.Error(f"Erreur de base de données: {str(e)}") from e
+sqlite3.Error: Erreur de base de données: no such table: users
+
+2025-09-16 22:02:32 - INFO - Application démarrée par l'utilisateur: Adam Kryach (administrateur)
+2025-09-16 22:03:23 - INFO - === Démarrage de l'application Gaz Station ===
+2025-09-16 22:03:32 - ERROR - Erreur lors de la récupération de l'ID utilisateur: Erreur de base de données: no such table: users
+2025-09-16 22:03:32 - ERROR - Traceback (most recent call last):
+  File "C:\Users\ghlft\Desktop\Gaz Station\modules\database.py", line 373, in execute_query
+    cursor.execute(query, params)
+sqlite3.OperationalError: no such table: users
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ghlft\Desktop\Gaz Station\main.py", line 91, in __init__
+    result = self.db_manager.execute_query(query, (self.current_user,))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghlft\Desktop\Gaz Station\modules\database.py", line 413, in execute_query
+    raise sqlite3.Error(f"Erreur de base de données: {str(e)}") from e
+sqlite3.Error: Erreur de base de données: no such table: users
+
+2025-09-16 22:03:32 - INFO - Application démarrée par l'utilisateur: Adam Kryach (administrateur)
+2025-09-16 22:16:21 - INFO - === Démarrage de l'application Gaz Station ===
+2025-09-16 22:16:40 - ERROR - Erreur lors de la récupération de l'ID utilisateur: Erreur de base de données: no such table: users
+2025-09-16 22:16:40 - ERROR - Traceback (most recent call last):
+  File "C:\Users\ghlft\Desktop\Gaz Station\modules\database.py", line 373, in execute_query
+    cursor.execute(query, params)
+sqlite3.OperationalError: no such table: users
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ghlft\Desktop\Gaz Station\main.py", line 91, in __init__
+    result = self.db_manager.execute_query(query, (self.current_user,))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghlft\Desktop\Gaz Station\modules\database.py", line 413, in execute_query
+    raise sqlite3.Error(f"Erreur de base de données: {str(e)}") from e
+sqlite3.Error: Erreur de base de données: no such table: users
+
+2025-09-16 22:16:40 - INFO - Application démarrée par l'utilisateur: Adam Kryach (administrateur)
+2025-09-16 22:24:10 - INFO - === Démarrage de l'application Gaz Station ===
+2025-09-16 22:24:30 - ERROR - Erreur lors de la récupération de l'ID utilisateur: Erreur de base de données: no such table: users
+2025-09-16 22:24:30 - ERROR - Traceback (most recent call last):
+  File "C:\Users\ghlft\Desktop\Gaz Station\modules\database.py", line 373, in execute_query
+    cursor.execute(query, params)
+sqlite3.OperationalError: no such table: users
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ghlft\Desktop\Gaz Station\main.py", line 91, in __init__
+    result = self.db_manager.execute_query(query, (self.current_user,))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghlft\Desktop\Gaz Station\modules\database.py", line 413, in execute_query
+    raise sqlite3.Error(f"Erreur de base de données: {str(e)}") from e
+sqlite3.Error: Erreur de base de données: no such table: users
+
+2025-09-16 22:24:30 - INFO - Application démarrée par l'utilisateur: Adam Kryach (administrateur)
+2025-09-16 22:28:36 - INFO - === Démarrage de l'application Gaz Station ===
+2025-09-16 22:29:00 - ERROR - Erreur lors de la récupération de l'ID utilisateur: Erreur de base de données: no such table: users
+2025-09-16 22:29:00 - ERROR - Traceback (most recent call last):
+  File "C:\Users\ghlft\Desktop\Gaz Station\modules\database.py", line 373, in execute_query
+    cursor.execute(query, params)
+sqlite3.OperationalError: no such table: users
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ghlft\Desktop\Gaz Station\main.py", line 91, in __init__
+    result = self.db_manager.execute_query(query, (self.current_user,))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghlft\Desktop\Gaz Station\modules\database.py", line 413, in execute_query
+    raise sqlite3.Error(f"Erreur de base de données: {str(e)}") from e
+sqlite3.Error: Erreur de base de données: no such table: users
+
+2025-09-16 22:29:00 - INFO - Application démarrée par l'utilisateur: Adam Kryach (administrateur)
+2025-09-16 22:50:08 - INFO - === Démarrage de l'application Gaz Station ===
+2025-09-16 22:50:39 - ERROR - Erreur lors de la récupération de l'ID utilisateur: Erreur de base de données: no such table: users
+2025-09-16 22:50:39 - ERROR - Traceback (most recent call last):
+  File "C:\Users\ghlft\Desktop\Gaz Station\modules\database.py", line 373, in execute_query
+    cursor.execute(query, params)
+sqlite3.OperationalError: no such table: users
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ghlft\Desktop\Gaz Station\main.py", line 91, in __init__
+    result = self.db_manager.execute_query(query, (self.current_user,))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghlft\Desktop\Gaz Station\modules\database.py", line 413, in execute_query
+    raise sqlite3.Error(f"Erreur de base de données: {str(e)}") from e
+sqlite3.Error: Erreur de base de données: no such table: users
+
+2025-09-16 22:50:39 - INFO - Application démarrée par l'utilisateur: Adam Kryach (administrateur)
+2025-09-16 23:04:56 - INFO - === Démarrage de l'application Gaz Station ===
+2025-09-16 23:14:58 - ERROR - Erreur d'initialisation de l'application: 'MainWindow' object has no attribute 'status_bar'
+2025-09-16 23:14:58 - ERROR - Traceback (most recent call last):
+  File "C:\Users\ghlft\Desktop\Gaz Station\main.py", line 84, in __init__
+    self.main_window = MainWindow(self.root, self.db_manager, self.user_role)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghlft\Desktop\Gaz Station\modules\main_window.py", line 142, in __init__
+    self.create_main_interface()
+  File "C:\Users\ghlft\Desktop\Gaz Station\modules\main_window.py", line 418, in create_main_interface
+    self.load_stations()
+  File "C:\Users\ghlft\Desktop\Gaz Station\modules\main_window.py", line 733, in load_stations
+    self.handle_station_selection()
+  File "C:\Users\ghlft\Desktop\Gaz Station\modules\main_window.py", line 720, in handle_station_selection
+    self.status_bar.config(text=f"Station sélectionnée: {selected_station}")
+    ^^^^^^^^^^^^^^^
+AttributeError: 'MainWindow' object has no attribute 'status_bar'. Did you mean: 'station_var'?
+
+2025-09-16 23:16:54 - INFO - Application démarrée par l'utilisateur: Adam Kryach (administrateur)
+2025-09-16 23:20:55 - INFO - === Démarrage de l'application Gaz Station ===
+2025-09-16 23:21:16 - ERROR - Erreur d'initialisation de l'application: 'MainWindow' object has no attribute 'activities_frame'
+2025-09-16 23:21:16 - ERROR - Traceback (most recent call last):
+  File "C:\Users\ghlft\Desktop\Gaz Station\main.py", line 84, in __init__
+    self.main_window = MainWindow(self.root, self.db_manager, self.user_role)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghlft\Desktop\Gaz Station\modules\main_window.py", line 142, in __init__
+    self.create_main_interface()
+  File "C:\Users\ghlft\Desktop\Gaz Station\modules\main_window.py", line 418, in create_main_interface
+    self.load_stations()
+  File "C:\Users\ghlft\Desktop\Gaz Station\modules\main_window.py", line 737, in load_stations
+    self.handle_station_selection()
+  File "C:\Users\ghlft\Desktop\Gaz Station\modules\main_window.py", line 726, in handle_station_selection
+    self.load_dashboard_data()
+  File "C:\Users\ghlft\Desktop\Gaz Station\modules\main_window.py", line 606, in load_dashboard_data
+    for widget in self.activities_frame.winfo_children():
+                  ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MainWindow' object has no attribute 'activities_frame'
+
+2025-09-16 23:21:49 - INFO - Application démarrée par l'utilisateur: Adam Kryach (administrateur)
+2025-09-16 23:34:04 - INFO - === Démarrage de l'application Gaz Station ===
+2025-09-16 23:34:52 - ERROR - Erreur d'initialisation de l'application: 'MainWindow' object has no attribute 'activities_frame'
+2025-09-16 23:34:52 - ERROR - Traceback (most recent call last):
+  File "C:\Users\ghlft\Desktop\Gaz Station\main.py", line 84, in __init__
+    self.main_window = MainWindow(self.root, self.db_manager, self.user_role)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghlft\Desktop\Gaz Station\modules\main_window.py", line 142, in __init__
+    self.create_main_interface()
+  File "C:\Users\ghlft\Desktop\Gaz Station\modules\main_window.py", line 418, in create_main_interface
+    self.load_stations()
+  File "C:\Users\ghlft\Desktop\Gaz Station\modules\main_window.py", line 859, in load_stations
+    self.handle_station_selection()
+  File "C:\Users\ghlft\Desktop\Gaz Station\modules\main_window.py", line 848, in handle_station_selection
+    self.load_dashboard_data()
+  File "C:\Users\ghlft\Desktop\Gaz Station\modules\main_window.py", line 606, in load_dashboard_data
+    for widget in self.activities_frame.winfo_children():
+                  ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MainWindow' object has no attribute 'activities_frame'
+
+2025-09-16 23:35:10 - INFO - Application démarrée par l'utilisateur: Adam Kryach (administrateur)
